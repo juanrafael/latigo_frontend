@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>.::LOGIN::.</title>
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+
+		<main id="login">
+			<div class="container">
+				<div class="row flex-center">
+					<div id="formulario" class="col s12">
+						<div class="card-panel">
+							<div class="center">
+								<img src="images/inei.png" alt="inei logo" height="100">
+							</div>
+							<h1 class="login-title">latiGO</h1>
+							<!--
+								FORMULARIO
+							-->
+							<form class="login-form" action="" method="POST">
+								<div class="row">
+									<div class="input-field col s12">
+										<i class="fa fa-user-o prefix"></i>
+							         <input id="username" type="text" class="validate">
+							         <label for="username">Usuario</label>
+							      </div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<i class="fa fa-lock prefix"></i>
+							         <input id="password" type="password" class="validate">
+							         <label for="password">Contraseña</label>
+							      </div>
+								</div>
+								<div class="row">
+									<div class="checkbox-login">						         
+							         <label>
+							         	<input type="checkbox">
+							         	<span>Recordar</span>
+							         </label>
+							      </div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<button class="waves-effect waves-light btn btn-large col s12 light-blue darken-2">Ingresar</button>
+									</div>								
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</main>
+
+		<script src="js/materialize.js"></script>
+	</body>
+</html>

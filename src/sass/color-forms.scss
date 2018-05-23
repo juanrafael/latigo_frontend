@@ -1,0 +1,25 @@
+  $color_form_input: #01579b;
+
+
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: $color_form_input;
+   }
+
+   /* label focus color */
+   .input-field input[type=text]:focus + label.active,
+    .input-field input[type=password]:focus + label.active{
+     color: $color_form_input;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus,
+   .input-field input[type=password]:focus{
+     border-bottom: 1px solid $color_form_input !important;
+     box-shadow: 0 1px 0 0 $color_form_input !important;
+   }
+
+  input[type="checkbox"]:checked + span:before{
+    border-right-color: $color_form_input !important;
+    border-bottom-color: $color_form_input !important;
+   }
+        

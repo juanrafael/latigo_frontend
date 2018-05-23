@@ -1,0 +1,40 @@
+@import "general";
+@import "color-forms";
+
+#login{
+	min-height: 100vh;
+	background-image: url('../images/fondo-inei.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 4em;
+	position: relative;
+
+	&::after{
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,.6);
+		z-index: 10;
+	}
+	
+	#formulario{
+		z-index: 20;
+		max-width: 500px;
+	}
+
+	.login-title{
+		margin: 0;
+		padding: 15px 0;
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	.checkbox-login{
+		margin-left: 13px;
+	}
+}
